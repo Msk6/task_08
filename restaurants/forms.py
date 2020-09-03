@@ -9,4 +9,5 @@ class RestaurantForm(forms.ModelForm):
         widgets = {
         	'opening_time': forms.TimeInput(attrs={'type':'time'}),
         	'closing_time': forms.TimeInput(attrs={'type':'time'}),
+            
         }
